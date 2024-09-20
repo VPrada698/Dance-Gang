@@ -1,0 +1,52 @@
+.body{
+    background-color: #6A5ACD;
+}
+.asd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:beige;
+}
+nav a{
+    font-family: 'Poppins';
+    cursor: pointer;
+    margin-left: 20px;
+}
+.Logo{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: beige;
+    margin-top: 20;
+    display:flex;
+    justify-content: flex-start;
+}
+.image{
+    display: flex;
+    justify-content: center; 
+    z-index: 1;
+}
+.rectangle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 110%;
+    width: 50%;
+    z-index: -1;
+    background-color: #7575CF;
+}
+.teachers{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+.teachers img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+footer{
+    font-family:'Poppins';
+    font-size: 24px;
+    color: beige;
+}
