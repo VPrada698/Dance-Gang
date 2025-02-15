@@ -1,17 +1,30 @@
-.body{
-    background-color: #6A5ACD;
+*{
+    margin: 0;
+    padding: 0;
 }
-.asd{
+
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color:beige;
+    background: linear-gradient(to right, #6A5ACD 50%, #7575CF 50%);
+    position: sticky;
+    
 }
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #6A5ACD 50%, #7575CF 50%);
+}
+
 nav a{
     font-family: 'Poppins';
     cursor: pointer;
     margin-left: 20px;
 }
+
 .Logo{
     font-family: 'Poppins';
     font-size: 20px;
@@ -20,33 +33,159 @@ nav a{
     display:flex;
     justify-content: flex-start;
 }
-.image{
-    display: flex;
-    justify-content: center; 
-    z-index: 1;
+
+.principal{
+    height: 750px;
 }
-.rectangle{
+
+.contenedor-img {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+}
+
+.bailarina {
+    position: relative;
+    z-index: 2;
+    transform: translateX(30%); 
+}
+
+.sombra {
     position: absolute;
-    top: 0;
+    z-index: 1; 
     bottom: 0;
-    left: 0;
-    height: 110%;
-    width: 50%;
-    z-index: -1;
-    background-color: #7575CF;
+    right: -37%;
+    transform: translateY(100px); 
 }
+
+.Ballet{
+    height: 950px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.Ballet img{
+    height: 500px;
+    width: 500px ;
+}
+
+.ballet-texto{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: beige;
+    width: 500px;
+}
+
+.ballet-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hip-hop{
+    height: 950px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.Hip-hop img{
+    height: 500px;
+    width: 500px ;
+}
+
+.hip-hop-texto{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: beige;
+    width: 500px;
+}
+
+.hip-hop-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dancehall{
+    height: 950px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.Dancehall img{
+    height: 500px;
+    width: 500px ;
+}
+
+.dancehall-texto{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: beige;
+    width: 500px;
+}
+
+.dancehall-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contempo{
+    height: 950px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.Contempo img{
+    height: 500px;
+    width: 500px ;
+}
+
+.contempo-texto{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: beige;
+    width: 500px;
+}
+
+.contempo-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .teachers{
+    position: relative;
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
+    z-index: 2;
 }
+
 .teachers img{
     height: 60px;
     width: 60px;
     border-radius: 50%;
 }
+
 footer{
     font-family:'Poppins';
     font-size: 24px;
     color: beige;
+}
+
+.Limonada{
+    text-align: center;
 }
